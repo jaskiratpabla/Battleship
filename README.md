@@ -11,8 +11,8 @@ The function behaves as follows:
 - Checks for valid input (a number between 1 and 100). If the input is not valid, the function will output: You must enter a number between 1 and 100!. It will then re-prompt the user to enter a guess.
 - If the input is a 'miss' meaning it missed all of the ships, the function will output: Miss!. It will then re-prompt the user to enter a guess.
 - If the input is a 'hit' meaning it hit one of the ships, the function will output: Hit!.
-      - If not all ships have been sunk, it will re-prompt the user to enter a guess.
-      - If all ships have been sunk, then it will output: Game Over!. Then it will output the game board as described below.
+- If not all ships have been sunk, it will re-prompt the user to enter a guess.
+- If all ships have been sunk, then it will output: Game Over!. Then it will output the game board as described below.
 - If the input was already guessed, Hit! or Miss! is reported as above as though the user had not already guessed the value already.
 
 When printing the gameboard, the character for a cell is:
