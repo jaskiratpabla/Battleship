@@ -12,7 +12,7 @@ The function behaves as follows:
 - If the input is a 'miss' meaning it missed all of the ships, the function will output: Miss!. It will then re-prompt the user to enter a guess.
 - If the input is a 'hit' meaning it hit one of the ships, the function will output: Hit!.
 - If not all ships have been sunk, it will re-prompt the user to enter a guess.
-- If all ships have been sunk, then it will output: Game Over!. Then it will output the game board as described below.
+- If all ships have been sunk, then it will output "Game Over!" and then it will output the game board as described below.
 - If the input was already guessed, Hit! or Miss! is reported as above as though the user had not already guessed the value already.
 
 When printing the gameboard, the character for a cell is:
